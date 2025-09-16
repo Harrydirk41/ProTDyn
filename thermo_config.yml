@@ -1,0 +1,10 @@
+tag: "thermo"
+num_sample: 1000
+batch_size: 25
+sequence: null
+pdb_dir: './example/cath1_1b43A02.pdb'
+xtc_dir: './example/cath1_1b43A02.xtc'
+timestep: 10
+num_step: 10
+sample_dir: "./sample_dir"
+ckpt_dir: "./ckpt_dir"
