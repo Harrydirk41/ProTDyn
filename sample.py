@@ -363,10 +363,12 @@ class ESM3LightningModule(pl.LightningModule):
             
         mask = (sequence_tokens != 1).to(structure_tokens.device)
         if structure_tokens_start is not None:
+            structure_tokens[:,:N_seq] = structure_tokens_start
             start_seg = 1
         else:
             start_seg = 0
         if structure_tokens_end is not None:
+            structure_tokens[:,-N_seq:] = structure_tokens_end
             end_seg = N_seg - 1
         else:
             end_seg = N_seg
