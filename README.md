@@ -161,16 +161,7 @@ sample(tag="thermo", num_sample=1000, batch_size=4, pdb_dir="./protein.pdb")
 
 ## 📖 Citation
 
-Paper coming soon!
-
----
-
-## 📬 Contact
-
-For questions, issues, or collaborations, please reach out:  
-
-**Yikai (Harry) Liu**  
-📧 liu3307@purdue.edu    
+Paper coming soon!   
 
 ---
 
